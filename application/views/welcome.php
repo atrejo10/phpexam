@@ -29,9 +29,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </header>
 	<fieldset>
 		<legend>Who Poked You </legend>
-		<?php foreach($poked as $poke){
+		<?php foreach($students as $student){
 		?>
-				<p><?=$poke['first_name']?> poked you <?=$poke['poke']?> times.</p>
+				<p><?=$student['first_name']?> poked you <?=$student['poke']?> times.</p>
 		<?php }
 		?>
 
