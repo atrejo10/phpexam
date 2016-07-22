@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<title>Welcome page</title>
 </head>
 <body>
-	<h3>Welcome!</h3>
+	<h3>Welcome! </h3>
 	<fieldset>
 	<legend> Student</legend>
 	<p>First Name: <?=$this->session->userdata('first_name')?></p>
